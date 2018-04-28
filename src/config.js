@@ -1,0 +1,5 @@
+const CURRENT_NETWORK_ID = '1'
+
+export {
+  CURRENT_NETWORK_ID
+}
