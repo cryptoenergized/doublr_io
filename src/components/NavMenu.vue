@@ -14,8 +14,14 @@
     </div>
     <div id="navbarExampleTransparentExample" class="navbar-menu" v-bind:class="{ 'is-active': isActive }">
       <div class="navbar-start">
+        <router-link class="navbar-item" to="/fund">
+          Fund
+        </router-link>
         <router-link class="navbar-item" to="/participants">
           Participants
+        </router-link>
+        <router-link class="navbar-item" to="/newcomers">
+          NewComers
         </router-link>
       </div>
     </div>
