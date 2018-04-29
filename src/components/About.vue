@@ -12,6 +12,7 @@
                  <figure>
                    <iframe width="100%" height="400px" src=" https://www.youtube.com/embed/tMskEyGxLyo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe> <br>
                 </figure>
+
                 <h2>Infographics</h2>
 
                 <figure>
@@ -20,7 +21,10 @@
                      Figure 1: Describing how Doublr works
                    </figcaption>
                 </figure>
+
+                  <a class="button is-danger is-large" href="https://doublr.io/#/fund">Go To Fund</a>
               </div>
+
             </div>
           </div>
         <div class="column is-2">
@@ -49,6 +53,11 @@ export default {
 .content > h1,
 .content > h2 {
   color:#b631df;
+}
+.button.is-danger,
+.button.is-danger:hover  {
+  background-color: #b631df !important;
+  /* opacity: 0.8 !important; */
 }
 
 </style>
